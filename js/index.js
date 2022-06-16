@@ -26,6 +26,8 @@ const loop = setInterval(() => {
     mario.style.width = "75px";
     mario.style.marginLeft = "50px";
 
+    alert("Game Over");
+
     clearInterval(loop);
   }
 }, 10);
